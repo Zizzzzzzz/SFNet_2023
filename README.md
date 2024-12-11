@@ -9,6 +9,9 @@ pip3 install -v -e .  # or  python3 setup.py develop
 ```
 
 ## DSEC-Det dataset
+<p align="center">
+  <img src="https://rpg.ifi.uzh.ch/img/papers/arxiv22_detection_mgehrig/combo.png" width="750">
+</p>
 To evaluate or train SFNet you will need to download the required preprocessed datasets:
 
 Link: https://pan.baidu.com/s/15M7pUKyMepAUumwLSR6-MQ
