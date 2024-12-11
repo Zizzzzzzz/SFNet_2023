@@ -20,11 +20,15 @@ pip3 install -v -e .  # or  python3 setup.py develop
   <img src="https://github.com/Zizzzzzzz/SFNet_2024/blob/main/imgs/dataset.jpg" width="750">
 </p>
 
-Labels: [datasets](https://github.com/Zizzzzzzz/SFNet_2024/tree/main/datasets).
-
 To evaluate or train SFNet you will need to download the required preprocessed datasets:
 
 Link: https://pan.baidu.com/s/15M7pUKyMepAUumwLSR6-MQ  Password: ryx6
+
+Labels: [datasets](https://github.com/Zizzzzzzz/SFNet_2024/tree/main/datasets).
+
+The official DSEC is available here: [ https://dsec.ifi.uzh.ch](https://dsec.ifi.uzh.ch).
+
+Details can be found in the paper [ DSEC: A Stereo Event Camera Dataset for Driving Scenarios](https://rpg.ifi.uzh.ch/docs/RAL21_DSEC.pdf).
 
 
 
