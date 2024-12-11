@@ -1,0 +1,8 @@
+car,0
+pedestrian,1
+cyclist,2
+motorcycle,3
+bicycle,4
+truck,5
+bus,6
+train,7
