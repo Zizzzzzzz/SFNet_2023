@@ -1,5 +1,9 @@
 # Enhancing Traffic Object Detection in Variable Illumination with RGB-Event Fusion
 
+<p align="center">
+  <img src="https://github.com/Zizzzzzzz/SFNet_2024/blob/main/imgs/intro.jpg" width="750">
+</p>
+
 This is the official Pytorch implementation of the IEEE T-ITS 2024 paper [Enhancing Traffic Object Detection in Variable Illumination with RGB-Event Fusion](https://ieeexplore.ieee.org/document/10682110).
 
 ## Conda Installation (same as [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX))
@@ -10,10 +14,8 @@ pip3 install -v -e .  # or  python3 setup.py develop
 
 ## DSEC-Det dataset
 <p align="center">
-  <img src="https://github.com/Zizzzzzzz/SFNet_2024/tree/main/imgs/dataset.jpg" width="750">
+  <img src="https://github.com/Zizzzzzzz/SFNet_2024/blob/main/imgs/dataset.jpg" width="750">
 </p>
-
-![image](https://github.com/Zizzzzzzz/SFNet_2024/tree/main/imgs/dataset.jpg)
 
 To evaluate or train SFNet you will need to download the required preprocessed datasets:
 
