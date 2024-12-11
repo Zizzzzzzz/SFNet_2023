@@ -1,3 +1,18 @@
 # Enhancing Traffic Object Detection in Variable Illumination with RGB-Event Fusion
 
-This is the official Pytorch implementation of the IEEE T-ITS 2024 paper [Enhancing Traffic Object Detection in Variable Illumination with RGB-Event Fusion](https://arxiv.org/abs/2212.05598).
+This is the official Pytorch implementation of the IEEE T-ITS 2024 paper [Enhancing Traffic Object Detection in Variable Illumination with RGB-Event Fusion](https://ieeexplore.ieee.org/document/10682110).
+
+## Conda Installation (same as [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX))
+
+
+
+
+```bibtex
+@article{liu2024enhancing,
+  title={Enhancing traffic object detection in variable illumination with rgb-event fusion},
+  author={Liu, Zhanwen and Yang, Nan and Wang, Yang and Li, Yuke and Zhao, Xiangmo and Wang, Fei-Yue},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  year={2024},
+  publisher={IEEE}
+}
+```
