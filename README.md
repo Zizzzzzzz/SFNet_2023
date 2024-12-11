@@ -4,6 +4,16 @@ This is the official Pytorch implementation of the IEEE T-ITS 2024 paper [Enhanc
 
 ## Conda Installation (same as [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX))
 
+```Bash
+pip3 install -v -e .  # or  python3 setup.py develop
+```
+
+## DSEC-Det dataset
+To evaluate or train SFNet you will need to download the required preprocessed datasets:
+
+Link: https://pan.baidu.com/s/15M7pUKyMepAUumwLSR6-MQ
+
+Password: ryx6
 
 
 
