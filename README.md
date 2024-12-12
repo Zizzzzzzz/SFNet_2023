@@ -30,7 +30,8 @@ The official DSEC is available here: [ https://dsec.ifi.uzh.ch](https://dsec.ifi
 
 Details can be found in the paper [ DSEC: A Stereo Event Camera Dataset for Driving Scenarios](https://rpg.ifi.uzh.ch/docs/RAL21_DSEC.pdf).
 
-
+The code for homographic transformation of RGB images to Event frame can be found here:
+[homographic tansformation](https://github.com/RunqiuBao/fov_alignment/blob/main/fov_align.ipynb)
 
 ```bibtex
 @article{liu2024enhancing,
