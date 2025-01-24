@@ -33,6 +33,25 @@ Details can be found in the paper [ DSEC: A Stereo Event Camera Dataset for Driv
 The code for homographic transformation of RGB images to Event frame can be found here:
 [homographic tansformation](https://github.com/RunqiuBao/fov_alignment/blob/main/fov_align.ipynb)
 
+## Evaluation
+
+all8
+```Bash
+python3 -m yolox.tools.eval -f exps/example/DSEC-Det/test_all.py -c ckpt/all8_best.pth -b 1 -d 1 --conf 0.001 --fp16 --fuse
+```
+all2
+```Bash
+python3 -m yolox.tools.eval -f exps/example/DSEC-Det/test_all_2classes.py -c ckpt/all2_best.pth -b 1 -d 1 --conf 0.001 --fp16 --fuse
+```
+sub8
+```Bash
+python3 -m yolox.tools.eval -f exps/example/DSEC-Det/test_sub.py -c ckpt/sub8_best.pth -b 1 -d 1 --conf 0.001 --fp16 --fuse
+```
+sub2
+```Bash
+python3 -m yolox.tools.eval -f exps/example/DSEC-Det/test_sub_2classes.py -c ckpt/sub2_best.pth -b 1 -d 1 --conf 0.001 --fp16 --fuse
+```
+
 ```bibtex
 @article{liu2024enhancing,
   title={Enhancing traffic object detection in variable illumination with rgb-event fusion},
