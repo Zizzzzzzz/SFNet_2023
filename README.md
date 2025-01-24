@@ -64,4 +64,4 @@ python3 -m yolox.tools.eval -f exps/example/DSEC-Det/test_sub_2classes.py -c ckp
 
 ## Code Acknowledgments
 This project has used code from the following projects:
-- [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) for the detection PAFPN/head
+- [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
