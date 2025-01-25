@@ -35,6 +35,12 @@ The code for homographic transformation of RGB images to Event frame can be foun
 
 ## Evaluation
 
+- Run ./datasets/convert_dsecdet_to_yolox.py to generate COCO json files.
+
+- Download model.
+Link: https://pan.baidu.com/s/1yPdmGKEs_tpeeI7gI0Subw
+Password: jtd7
+
 all8
 ```Bash
 python3 -m yolox.tools.eval -f exps/example/DSEC-Det/test_all.py -c ckpt/all8_best.pth -b 1 -d 1 --conf 0.001 --fp16 --fuse
